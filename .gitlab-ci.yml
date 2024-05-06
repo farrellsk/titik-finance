@@ -1,0 +1,9 @@
+stages : 
+  - deploy
+
+deploy :
+  stage : deploy
+  script :
+    - mkdir -p ~/.ssh
+    - ssh-keyscan -H 139.59.234.6 >> ~/.ssh/known_hosts
+    - ssh root@139.59.234.6 '"$PRIVATE_ACCESS" && cd /var/www/titik-finance && git pull origin main'

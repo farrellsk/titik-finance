@@ -1,0 +1,58 @@
+.search .option li{
+    display: flex;
+    cursor: pointer;
+
+}
+.search{
+    display: none;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    background: rgb(249, 250, 243);
+}
+.kategori.active .search{
+    display: block;
+}
+.search .option{
+    position: relative;
+}
+.kategori input{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 0 15px 0 43px;
+}
+.search .option{
+    margin-top: 10px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+.option::-webkit-scrollbar{
+    width: 7px;
+}
+.option::-webkit-scrollbar-track{
+    background: rgb(174, 227, 246);
+    border-radius: 25px;
+}
+.option::-webkit-scrollbar-thumb{
+      background: rgb(68, 130, 245);
+    border-radius: 25px;
+}
+.option li{
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 13px;
+}
+
+.option li:hover{
+    background: white;
+}
+
+.kategori i{
+    position: absolute;
+    left: 30px;
+    line-height: 35px;
+}

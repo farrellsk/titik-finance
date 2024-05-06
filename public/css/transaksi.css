@@ -1,0 +1,70 @@
+.tanggal {
+    height: 90px;
+    width: 150px;
+    margin-left: 400px ;
+    margin-top: 10px;
+    position: absolute;
+}
+.date{
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+}
+.input{
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+.payment{
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.note{
+    height: 40px;
+    width: 550px;
+    margin-top: 80px;
+    margin-left: 10px;
+    position: absolute;
+    border: 0px;
+}
+.catatan{
+    height: 35px;
+    width: 530px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.status{
+    height: 40px;
+    width: 150px;
+    margin-left: 580px;
+    margin-top: 80px;
+    border: 0px;
+}
+.select{
+    height: 40px;
+    width: 130px;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+.form-dokument{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 50px;
+    width: 300px;
+}
+.dokument{
+    width:300px;
+    height: 50px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi kolom */
+}
+
